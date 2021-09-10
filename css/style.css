@@ -42,5 +42,7 @@ h1 {
 }
 
 .countdown-el span {
-    font-size: 1.3rem;
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-transform: capitalize;
 }
