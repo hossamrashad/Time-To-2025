@@ -22,8 +22,13 @@ body {
 
 h1 {
     font-size: 4rem;
-    margin-top: -10rem;
-    font-weight: normal;
+    font-weight: bold;
+    font-family: Oswald, sans-serif;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-gradient(linear, right top, left top, color-stop(0, rgb(0, 0, 0)), to(#ef3139));
+    background: linear-gradient(to left, #000 0, #ef3139 100%);
+    -pie-background: linear-gradient(to left, #000, #ef3139);
+    -webkit-background-clip: text;
 }
 
 .countdown-container {
